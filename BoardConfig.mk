@@ -49,9 +49,6 @@ TARGET_USES_UNCOMPRESSED_KERNEL := true
 TARGER_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-# Kernel Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-5.3-kernel/bin
-KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
 
 # Optimizations
 STRICT_ALIASING := false
